@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:weightSum="4">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:background="?colorPrimary"
+        android:layout_height="4dp"/>
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_weight="3"
+        android:id="@+id/ordered_food_name"
+        android:text="Kabhi burger kabhi garber"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:layout_weight="0.8"
+        android:text="Rs. 100"
+        android:gravity="start"
+        android:id="@+id/ordered_food_cost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

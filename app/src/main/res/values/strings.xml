@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InstantFood</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cost_low_high">Cost (Low - High)</string>
+    <string name="cost_high_low">Cost (High - Low)</string>
+    <string name="rating">Rating</string>
+
+    <string name="forgot_pass"><u>Forgot Password?</u></string>
+    <string name="don_t_have_an_account_sign_up_now"><u>Don\'t have an account? Sign up now</u></string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_low"
+        android:title="@string/cost_low_high"/>
+
+    <item
+        android:id="@+id/sort_high"
+        android:title="@string/cost_high_low"/>
+
+    <item
+        android:id="@+id/sort_rating"
+        android:title="@string/rating"/>
+
+</menu>

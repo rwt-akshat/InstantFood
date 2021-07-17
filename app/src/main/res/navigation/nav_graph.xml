@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.akrwt.instantfood.fragments.main.Home"
+        android:label="All Restaurants"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.akrwt.instantfood.fragments.main.MyProfile"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile" />
+    <fragment
+        android:id="@+id/favourite"
+        android:name="com.akrwt.instantfood.fragments.main.FavouriteFragment"
+        android:label="Favourite Restaurants"
+        tools:layout="@layout/fragment_favourite" >
+        <action
+            android:id="@+id/action_favourite_to_home"
+            app:destination="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderHistory"
+        android:name="com.akrwt.instantfood.fragments.main.OrderHistoryFragment"
+        android:label="My Previous Orders"
+        tools:layout="@layout/fragment_order_history" >
+        <action
+            android:id="@+id/action_orderHistory_to_home"
+            app:destination="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/faq"
+        android:name="com.akrwt.instantfood.fragments.main.FAQsFragment"
+        android:label="Frequently Asked Questions"
+        tools:layout="@layout/fragment_f_a_qs" />
+</navigation>

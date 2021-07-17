@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:padding="10dp">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_question"
+        android:textColor="?colorPrimaryDark"
+        android:textSize="20sp"
+        android:text="Q.1 Famous Restaurants in my area?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_answers"
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="A.1 There aren't any"/>
+
+</LinearLayout>
